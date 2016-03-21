@@ -1,0 +1,142 @@
+{
+  "OS-EXT-STS-task_state": "None",
+  "addresses": {
+    "local-net": [
+      {
+        "OS-EXT-IPS-MAC-mac_addr": "fa-16-3e-71-c4-e3",
+        "version": 4,
+        "addr": "192.168.0.124",
+        "OS-EXT-IPS-type": "fixed"
+      }, {
+        "OS-EXT-IPS-MAC-mac_addr": "fa-16-3e-71-c4-e3",
+        "version": 4,
+        "addr": "160.80.97.170",
+        "OS-EXT-IPS-type": "floating"
+      }
+    ]
+  },
+  "links": [
+    {
+      "href": "http-//controller-8774/v2/125ae54dd54640d497fa5eaecfcd51ce/servers/9dda9752-8de4-4c80-a411-90996996035f",
+      "rel": "self"
+    }, {
+      "href": "http-//controller-8774/125ae54dd54640d497fa5eaecfcd51ce/servers/9dda9752-8de4-4c80-a411-90996996035f",
+      "rel": "bookmark"
+    }
+  ],
+  "image": {
+    "id": "2a41e72e-5ca7-4ab4-bcd4-96f276b1c7b5",
+    "links": [
+      {
+        "href": "http-//controller-8774/125ae54dd54640d497fa5eaecfcd51ce/images/2a41e72e-5ca7-4ab4-bcd4-96f276b1c7b5",
+        "rel": "bookmark"
+      }
+    ]
+  },
+  "manager": "<novaclient.v2.servers.ServerManager object at 0x7fb8cd6dc850>",
+  "OS-EXT-STS-vm_state": "active",
+  "OS-EXT-SRV-ATTR-instance_name": "instance-00000028",
+  "OS-SRV-USG-launched_at": "2015-11-16T10-12-34.000000",
+  "flavor": {
+    "id": "3",
+    "links": [
+      {
+        "href": "http-//controller-8774/125ae54dd54640d497fa5eaecfcd51ce/flavors/3",
+        "rel": "bookmark"
+      }
+    ]
+  },
+  "id": "9dda9752-8de4-4c80-a411-90996996035f",
+  "security_groups": [{"name": "default"}],
+  "user_id": "128cf336fda849aaafdb24089b24a001",
+  "OS-DCF-diskConfig": "AUTO",
+  "accessIPv4": "",
+  "accessIPv6": "",
+  "progress": 0,
+  "OS-EXT-STS-power_state": 1,
+  "OS-EXT-AZ-availability_zone": "nova",
+  "config_drive": "",
+  "status": "ACTIVE",
+  "updated": "2015-11-16T14-29-26Z",
+  "hostId": "efa478771b066c37ee648197534b4caa1609e0bf7a78ac656443f5af",
+  "OS-EXT-SRV-ATTR-host": "compute03",
+  "OS-SRV-USG-terminated_at": "None",
+  "key_name": "caruso-key",
+  "OS-EXT-SRV-ATTR-hypervisor_hostname": "compute03",
+  "name": "total-monasca-0",
+  "created": "2015-11-16T10-12-17Z",
+  "tenant_id": "125ae54dd54640d497fa5eaecfcd51ce",
+  "os-extended-volumes-volumes_attached": [],
+  "_info": {
+    "OS-EXT-STS-task_state": "None",
+    "addresses": {
+      "local-net": [
+        {
+          "OS-EXT-IPS-MAC-mac_addr": "fa-16-3e-71-c4-e3",
+          "version": 4,
+          "addr": "192.168.0.124",
+          "OS-EXT-IPS-type": "fixed"
+        }, {
+          "OS-EXT-IPS-MAC-mac_addr": "fa-16-3e-71-c4-e3",
+          "version": 4,
+          "addr": "160.80.97.170",
+          "OS-EXT-IPS-type": "floating"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "http-//controller-8774/v2/125ae54dd54640d497fa5eaecfcd51ce/servers/9dda9752-8de4-4c80-a411-90996996035f",
+        "rel": "self"
+      }, {
+        "href": "http-//controller-8774/125ae54dd54640d497fa5eaecfcd51ce/servers/9dda9752-8de4-4c80-a411-90996996035f",
+        "rel": "bookmark"
+      }
+    ],
+    "image": {
+      "id": "2a41e72e-5ca7-4ab4-bcd4-96f276b1c7b5",
+      "links": [
+        {
+          "href": "http-//controller-8774/125ae54dd54640d497fa5eaecfcd51ce/images/2a41e72e-5ca7-4ab4-bcd4-96f276b1c7b5",
+          "rel": "bookmark"
+        }
+      ]
+    },
+    "OS-EXT-STS-vm_state": "active",
+    "OS-EXT-SRV-ATTR-instance_name": "instance-00000028",
+    "OS-SRV-USG-launched_at": "2015-11-16T10-12-34.000000",
+    "flavor": {
+      "id": "3",
+      "links": [
+        {
+          "href": "http-//controller-8774/125ae54dd54640d497fa5eaecfcd51ce/flavors/3",
+          "rel": "bookmark"
+        }
+      ]
+    },
+    "id": "9dda9752-8de4-4c80-a411-90996996035f",
+    "security_groups": [{"name": "default"}],
+    "user_id": "128cf336fda849aaafdb24089b24a001",
+    "OS-DCF-diskConfig": "AUTO",
+    "accessIPv4": "",
+    "accessIPv6": "",
+    "progress": 0,
+    "OS-EXT-STS-power_state": 1,
+    "OS-EXT-AZ-availability_zone": "nova",
+    "config_drive": "",
+    "status": "ACTIVE",
+    "updated": "2015-11-16T14-29-26Z",
+    "hostId": "efa478771b066c37ee648197534b4caa1609e0bf7a78ac656443f5af",
+    "OS-EXT-SRV-ATTR-host": "compute03",
+    "OS-SRV-USG-terminated_at": "None",
+    "key_name": "caruso-key",
+    "OS-EXT-SRV-ATTR-hypervisor_hostname": "compute03",
+    "name": "total-monasca-0",
+    "created": "2015-11-16T10-12-17Z",
+    "tenant_id": "125ae54dd54640d497fa5eaecfcd51ce",
+    "os-extended-volumes-volumes_attached": [],
+    "metadata": {}
+  },
+  "metadata": {},
+  "_loaded": "True"
+}

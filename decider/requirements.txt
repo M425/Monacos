@@ -1,0 +1,10 @@
+bottle
+pyyaml
+livereload
+python-monascaclient
+python-keystoneclient
+python-novaclient
+transitions
+redis
+kazoo
+colorlog

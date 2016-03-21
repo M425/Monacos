@@ -1,0 +1,41 @@
+
+HTTPServerRequest(
+  protocol='http',
+  host='160.80.97.170:25490',
+  method='POST',
+  uri='/api/callback',
+  version='HTTP/1.1',
+  remote_ip='160.80.97.170',
+  headers={
+    'Content-Length': '574',
+    'Host': '160.80.97.170:25490',
+    'Accept-Encoding': 'gzip, deflate',
+    'Content-Type': 'application/json',
+    'Connection': 'keep-alive',
+    'Accept': '*/*',
+    'User-Agent': 'python-requests/2.8.1'
+  }
+)
+'
+{
+  "metrics": [
+    {
+      "dimensions": {
+        "hostname": "compute01",
+        "service": "monitoring"
+      },
+      "id": null,
+      "name": "cpu.user_perc"
+    }
+  ],
+  "alarm_id": "e0d529ad-36bc-4c45-bbb4-e0d06a2b389c",
+  "state": "OK",
+  "alarm_timestamp": 1448276854,
+  "tenant_id": "125ae54dd54640d497fa5eaecfcd51ce",
+  "old_state": "UNDETERMINED",
+  "alarm_description": "CPU Usage alarm",
+  "message": "The alarm threshold(s) have not been exceeded for the sub-alarms: avg(cpu.user_perc{service=monitoring}) > 60.0 with the values: [16.5]",
+  "alarm_definition_id": "32cf1cfd-f6ca-416c-ab6d-5a025d1b6ade",
+  "alarm_name": "CPU_USAGE"
+}
+'

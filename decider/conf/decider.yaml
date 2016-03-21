@@ -1,0 +1,65 @@
+---
+development: False
+whoami: 'compute01'
+root:
+    folder: '/opt/monacos/'
+compute:
+    managers:
+        - ip: 160.80.97.164
+          realhost: "compute01"
+          manager: "compute01-man"
+          decider_port: 42501
+        - ip: 160.80.97.165
+          realhost: "compute02"
+          manager: "compute02-man"
+          decider_port: 42501
+        - ip: 160.80.97.166
+          realhost: "compute03"
+          manager: "compute03-man"
+          decider_port: 42501
+
+zookeeper:
+    host: "mon"
+    port: 2181
+    rootpath: "monacos"
+
+monasca:
+    api:
+        ip: "TODO"
+        port: 8070
+        user: "monasca-api"
+        password: "password"
+decider:
+    host: '0.0.0.0'
+    timeout:
+        normal: 30
+        underload_avoid: 30
+        overload_avoid: 30
+        underload: 20
+        overload: 20
+        confirmed: 5
+        sleeping: 30
+        wakeup: 10
+        STATS: 30
+        EXEC: 1
+    log:
+        level: 'DEBUG'
+        folder: 'decider/log/'
+        filename: 'decider.log'
+keystone:
+    monasca:
+        username: 'mini-mon'
+        password: 'password'
+        tenant_name: 'TesiCaruso'
+        tenant_id: '125ae54dd54640d497fa5eaecfcd51ce'
+        auth_url: 'http://controller:5000/v3/'
+    admin:
+        username: 'admin'
+        password: 'e7a1ea86c213ec046021'
+        tenant_name: 'TesiCaruso'
+        tenant_id: '125ae54dd54640d497fa5eaecfcd51ce'
+        auth_url: 'http://controller:5000/v2.0/'
+influxdb:
+    hostname: 'influxdb'
+    port: 8086
+    dbname: 'monacos'

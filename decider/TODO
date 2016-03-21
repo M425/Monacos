@@ -1,0 +1,6 @@
+- aggiustare il fatto dell'attesa dello stato confirmed sullhost di residenza
+  piu che sullo stato
+
+- testare con solo macchine active
+
+- gestire migrazione con altri stati (SUSPENDED, SHUTOFF, etc...)
